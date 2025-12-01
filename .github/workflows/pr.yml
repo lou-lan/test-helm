@@ -29,7 +29,3 @@ jobs:
         run: |
           helm plugin install https://github.com/chartmuseum/helm-push.git --verify=false 
 
-      - name: Push Helm Chart to ChartMuseum
-        run: |
-          # Replace with your chart path and ChartMuseum URL
-          helm cm-push ./chart/ https://your-chartmuseum-url
